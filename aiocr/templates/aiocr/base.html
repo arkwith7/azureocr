@@ -37,6 +37,7 @@
 </head>
 <body class="">
 
+
 	<!-- [ Pre-loader ] start -->
 	<div class="loader-bg">
 		<div class="loader-track">
@@ -45,17 +46,17 @@
 	</div>
 	<!-- [ Pre-loader ] End -->
 
-	{% include 'includes/sidebar.html' %}
+	{% include 'aiocr/sidebar.html' %}
 
-	{% include 'includes/navigation.html' %}	
+	{% include 'aiocr/navigation.html' %}	
 
-	{% include 'includes/header-user-list.html' %}
+	{% include 'aiocr/header-user-list.html' %}
 
-	{% include 'includes/header-chat.html' %}
+	{% include 'aiocr/header-chat.html' %}
 
 	{% block content %}{% endblock content %}
 
-	{% include 'includes/scripts.html' %}
+	{% include 'aiocr/scripts.html' %}
 
     <!-- Specific Page JS goes HERE  -->
     {% block javascripts %}{% endblock javascripts %}
