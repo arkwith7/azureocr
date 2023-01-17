@@ -11,7 +11,7 @@ urlpatterns = [
     path("", include("apps.authentication.urls")), # Auth routes - login / register
 
     # ADD NEW Routes HERE
-    path('polls/', include('polls.urls')),  # <-- NEW
+    path('aiocr/', include('aiocr.urls')),  # <-- NEW
     
     # Leave `Home.Urls` as last the last line
     path("", include("apps.home.urls"))
